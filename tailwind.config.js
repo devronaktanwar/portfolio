@@ -7,6 +7,7 @@ export default {
   		colors: {
   			primaryColor: '#25a983',
 			primaryBg:"#161513",
+			secondary:"#d1d5db",
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

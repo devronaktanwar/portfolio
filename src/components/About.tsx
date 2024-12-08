@@ -11,7 +11,7 @@ const About = () => {
             className="absolute sm:w-16 w-12 -bottom-2 z-0 right-0"
           />
         </div>
-        <div className="flex flex-col justify-center items-center gap-y-4">
+        <div className="flex flex-col justify-center items-center gap-y-4 md:flex-row">
           <div className="basis-1/4 flex justify-center relative">
             <img src={me} alt="me" className="sm:w-52 w-44 rounded-full border z-20 relative" />
             <img
@@ -21,7 +21,7 @@ const About = () => {
             />
           </div>
           <div className="basis-3/5 flex flex-col gap-3">
-            <p className="text-sm text-gray-400">
+            <p className="text-sm sm:text-base text-secondary">
               My name is Ronak. I'm from Jaipur, Rajasthan Currently, I'm
               pursuing my Bachelor's in Technology from Computer Science stream
               from Jaipur Engineering College and Research Centre University.
