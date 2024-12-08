@@ -37,10 +37,10 @@ const initialNavLinks: navlinksObjProps[] = [
     to: "#projects",
   },
   {
-    title: "Contact",
+    title: "Education",
     isActive: false,
     isLast: true,
-    to: "#contact",
+    to: "#education",
   },
 ];
 
@@ -80,8 +80,8 @@ const Navbar = () => {
         <ul className="md:flex gap-6 flex-[0.5] justify-between hidden">
           {navlinks.map((link, index) => (
             <li key={index}>
-              <Link
-                to={link.to}
+              <a
+                href={link.to}
                 className={twMerge(
                   "text-base relative pb-2",
                   link.isActive ? "border-b-2 border-transparent" : ""
@@ -98,7 +98,7 @@ const Navbar = () => {
                 onClick={() => handleActive(index)}
               >
                 {link.title}
-              </Link>
+              </a>
             </li>
           ))}
         </ul>
@@ -136,19 +136,23 @@ const MobileNav: FC<lMobileNavProps> = () => {
       <div className="flex flex-col space-y-2">
         <div className="flex items-center gap-4 border-b pb-2 border-dashed border-[#ffffff3b]">
           <GrHomeRounded />
-          <p>Home</p>
+          <a href="/">Home</a>
         </div>
         <div className="flex items-center gap-4 border-b pb-2 border-dashed border-[#ffffff3b]">
           <FaRegUser />
-          <p>About</p>
+          <a href="#about">About</a>
         </div>
         <div className="flex items-center gap-4 border-b pb-2 border-dashed border-[#ffffff3b]">
           <PiBagSimpleBold />
-          <p>Experience</p>
+          <a href="#experience">Experience</a>
+        </div>
+        <div className="flex items-center gap-4 border-b pb-2 border-dashed border-[#ffffff3b]">
+          <PiBagSimpleBold />
+          <a href="#education">Education</a>
         </div>
         <div className="flex items-center gap-4 border-b pb-2 border-dashed border-[#ffffff3b]">
           <FiTarget />
-          <p>Portfolio</p>
+          <a href="#projects">Portfolio</a>
         </div>
         <div className="flex items-center gap-4">
           <FiPhone />

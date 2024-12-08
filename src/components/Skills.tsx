@@ -39,7 +39,7 @@ const Skills = () => {
     },
   ];
   return (
-    <div className="w-[95%] sm:w-[80%] m-auto pt-28">
+    <div className="w-[95%] sm:w-[80%] m-auto pt-36">
       <div className="flex flex-col items-center gap-8">
         <div className="relative">
           <h2 className="md:text-5xl font-bold z-10 relative text-2xl">
@@ -72,7 +72,7 @@ interface lSkillCardProps {
 }
 const SkillCard: FC<lSkillCardProps> = ({ title, index, img }) => {
   return (
-    <div className="w-[150px] sm:w-[250px]">
+    <div className="w-[150px] sm:w-[250px]"id="skills">
       <div className="group border p-3 sm:p-6 rounded-lg shadow-lg flex flex-col sm:gap-4 cursor-pointer transition-transform hover:scale-105 hover:border-[2px] hover:border-[#B923E1] relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-[#da7d2538] to-[#b823e129] opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg -z-10" />
         <p className="text-2xl sm:text-4xl font-semibold text-left z-10">{`0${index}`}</p>

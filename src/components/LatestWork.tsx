@@ -23,7 +23,7 @@ const projectData = [
 
 const LatestWork = () => {
   return (
-    <div className="w-[90%] sm:w-[80%] m-auto py-28">
+    <div id="projects" className="w-[90%] sm:w-[80%] m-auto py-28">
       <div className="flex flex-col items-center gap-8">
         <div className="relative">
           <h2 className="md:text-5xl font-bold z-10 relative text-2xl">

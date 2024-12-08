@@ -1,7 +1,7 @@
 import me from "../assets/me.jpeg";
 const About = () => {
   return (
-    <div id="about" className="w-[80%] m-auto">
+    <div id="about" className="w-[80%] m-auto sm:pt-48 pt-24">
       <div className="flex flex-col items-center gap-8">
         <div className="relative">
           <h2 className="md:text-5xl font-bold z-10 relative text-2xl">About me!</h2>

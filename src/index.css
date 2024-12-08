@@ -86,3 +86,6 @@ input,textarea{
   background: transparent;
   outline: none;
 }
+html {
+  scroll-behavior: smooth;
+}
