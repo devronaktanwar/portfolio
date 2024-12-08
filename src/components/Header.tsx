@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className="w-[80%] m-auto py-36 flex justify-center">
+    <div className="w-[80%] m-auto sm:py-36 flex justify-center py-20">
       <div>
         <div className="flex flex-col gap-3">
           <h2 className="text-3xl sm:text-6xl font-bold text-center leading-snug">
@@ -15,10 +15,10 @@ const Header = () => {
               I'm Ronak Tanwar,
             </span>{" "}
             Full Stack
-            Developer based in INDIA.
+            Developer based in India.
           </h2>
           <p className="text-center max-w-2xl m-auto">
-            I am a full-stack developer from Jaipur, INDIA with 1+ years of
+            I am a full-stack developer from Jaipur, India with 1+ years of
             experience in multiple companies like Microsoft, Tesla and Apple.
           </p>
           <div className="flex justify-center gap-4 mt-6">

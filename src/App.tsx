@@ -1,4 +1,4 @@
-// import About from "./components/About"
+import About from "./components/About"
 import Header from "./components/Header"
 import Navbar from "./components/Navbar"
 // import Services from "./components/LatestWork"
@@ -11,10 +11,10 @@ const App = () => {
     <div>
       <Navbar/>
       <Header/>
-      {/* <About/>
-      <Skills/>
-      <Services/>
-      <Contact/> */}
+      <About/>
+      {/* <Skills/> */}
+      {/* <Services/> */}
+      {/* <Contact/> */}
     </div>
   )
 }

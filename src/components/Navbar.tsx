@@ -63,7 +63,7 @@ const Navbar = () => {
   return (
     <div className="sticky top-0 bg-primaryBg z-50">
       <nav className="flex w-[80%] m-auto py-6 justify-between items-center">
-        <h1 className="font-bold text-4xl">
+        <h1 className="font-bold sm:text-4xl text-3xl">
           Rona
           <span
             className="text-transparent bg-clip-text"
@@ -114,7 +114,7 @@ const Navbar = () => {
           </button>
         </div>
         <div className="md:hidden relative">
-          <RiMenu2Line size={26} onClick={toggleMenu} />
+          <RiMenu2Line size={24} onClick={toggleMenu} />
           <div
             className={twMerge(
               isOpen ? "translate-0 scale-100" : "scale-0",
