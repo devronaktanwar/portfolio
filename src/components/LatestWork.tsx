@@ -23,7 +23,7 @@ const projectData = [
 
 const LatestWork = () => {
   return (
-    <div className="w-[80%] m-auto py-28">
+    <div className="w-[90%] sm:w-[80%] m-auto py-28">
       <div className="flex flex-col items-center gap-8">
         <div className="relative">
           <h2 className="md:text-5xl font-bold z-10 relative text-2xl">
@@ -71,8 +71,8 @@ const LatestWorkCard: FC<lLatestWorkCardProps> = ({
         <img src={img} alt={title} className="w-full h-full object-cover" />
       </div>
       <div className="cursor-pointer absolute inset-0 bg-gradient-to-r from-[#da7d25a3] to-[#b823e1a3] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out flex items-center justify-center">
-        <div className="text-center text-white space-y-2 px-4">
-          <h3 className="text-2xl font-bold">{title}</h3>
+        <div className="text-center text-white space-y-1 px-4">
+          <h3 className="sm:text-2xl font-bold text-xl">{title}</h3>
           <p className="text-sm">{description}</p>
           <div className="flex justify-center items-center gap-4">
             <a href={liveLink} target="_blank" rel="noopener noreferrer">
