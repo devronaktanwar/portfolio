@@ -47,9 +47,8 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Contact Form */}
           <div className="w-full lg:w-[520px]">
-            <div className="space-y-4">
+            <div className="space-y-4 sm:text-base text-sm">
               <div className="flex flex-col gap-1">
                 <label htmlFor="name">Name</label>
                 <input
