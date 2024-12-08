@@ -3,7 +3,7 @@ import { SlLocationPin } from "react-icons/sl";
 
 const Contact = () => {
   return (
-    <div className="w-[90%] lg:w-[80%] m-auto">
+    <div className="w-[90%] lg:w-[80%] m-auto py-16">
       <div className="flex flex-col items-center justify-center gap-8">
         {/* Heading Section */}
         <div className="relative text-center">
