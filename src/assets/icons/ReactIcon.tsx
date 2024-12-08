@@ -5,8 +5,8 @@ function ReactIcon(props: React.SVGProps<SVGSVGElement>) {
     <svg
       fill="none"
       viewBox="0 0 15 15"
-      height="100px"
-      width="100px"
+      height="80px"
+      width="80px"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
