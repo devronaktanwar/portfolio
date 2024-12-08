@@ -3,7 +3,7 @@ import Header from "./components/Header"
 import Navbar from "./components/Navbar"
 import Services from "./components/LatestWork"
 import Skills from "./components/Skills"
-// import Contact from "./components/Contact"
+import Contact from "./components/Contact"
 
 
 const App = () => {
@@ -14,7 +14,7 @@ const App = () => {
       <About/>
       <Skills/>
       <Services/>
-      {/* <Contact/> */}
+      <Contact/>
     </div>
   )
 }
