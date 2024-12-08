@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { twMerge } from "tailwind-merge";
 import { FC, useState } from "react";
 import { RiMenu2Line } from "react-icons/ri";
