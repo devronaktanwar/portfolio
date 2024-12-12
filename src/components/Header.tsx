@@ -32,7 +32,7 @@ const Header = () => {
                         style={{ animation: "slideIn 1.2s ease-in-out" }}
                     >
                         I am a full-stack developer from Jaipur, India with 1+ years of
-                        experience in multiple companies like Microsoft, Tesla, and Apple.
+                        experience in web technologies like React Js, Node Js, Express Js and MongoDB.
                     </p>
                     <div className="flex justify-center gap-4 mt-6">
                         <button

@@ -30,7 +30,7 @@ const educations: Education[] = [
 
 const Education: React.FC = () => {
   return (
-    <div className="w-[90%] sm:w-[80%] m-auto sm:pt-28"id="education">
+    <div className="w-[90%] sm:w-[80%] m-auto sm:pt-28 pt-12"id="education">
       <div className="flex flex-col items-center pb-14">
         <div className="relative">
           <h2 className="md:text-5xl font-bold z-10 relative text-2xl">

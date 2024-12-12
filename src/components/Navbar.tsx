@@ -102,15 +102,17 @@ const Navbar = () => {
           ))}
         </ul>
         <div className="hidden md:block">
-          <button
-            className="px-4 py-3 rounded-full flex items-center"
-            style={{
-              background:
-                "linear-gradient(267deg, #DA7C25 .36%, #B923E1 102.06%)",
-            }}
-          >
-            Connect With Me
-          </button>
+          <a href="#contact">
+            <button
+              className="px-4 py-3 rounded-full flex items-center"
+              style={{
+                background:
+                  "linear-gradient(267deg, #DA7C25 .36%, #B923E1 102.06%)",
+              }}
+            >
+              Connect With Me
+            </button>
+          </a>
         </div>
         <div className="md:hidden relative">
           <RiMenu2Line size={24} onClick={toggleMenu} />
@@ -155,7 +157,7 @@ const MobileNav: FC<lMobileNavProps> = () => {
         </div>
         <div className="flex items-center gap-4">
           <FiPhone />
-          <p>Contact</p>
+          <a href="#contact">Contact</a>
         </div>
       </div>
     </div>

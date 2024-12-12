@@ -9,7 +9,7 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    title: "Software Engineer Intern",
+    title: "SDE Intern",
     company: "Orufy Technologies",
     duration: "Aug 2024 - Present",
     description:

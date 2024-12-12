@@ -5,16 +5,17 @@ import crypto from "../assets/crypto.png";
 import stackjobs from "../assets/stackjobs.png";
 const projectData = [
   {
-    title: "Portfolio Site",
-    description: "A personal portfolio to showcase projects and skills.",
+    title: "StackJobs - job portal",
+    description:
+      "StackJobs is a MERN stack-powered job portal offering seamless job search, filtering, and application management for job seekers.",
     img: stackjobs,
     liveLink: "#",
     githubLink: "#",
   },
   {
-    title: "Stack Jobs",
+    title: "CryptoVerse - a cryptocurrency app",
     description:
-      "A brief description of the project goes here to provide context.",
+      "CryptoVerse is a dynamic cryptocurrency app providing real-time coin data and interactive visualizations using APIs and Chart.js.  ",
     img: crypto,
     liveLink: "#",
     githubLink: "#",

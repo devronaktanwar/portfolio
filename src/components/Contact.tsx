@@ -3,9 +3,8 @@ import { SlLocationPin } from "react-icons/sl";
 
 const Contact = () => {
   return (
-    <div className="w-[90%] lg:w-[80%] m-auto py-16">
+    <div className="w-[90%] lg:w-[80%] m-auto py-16" id="contact">
       <div className="flex flex-col items-center justify-center gap-8">
-        {/* Heading Section */}
         <div className="relative text-center">
           <h2 className="md:text-5xl font-bold z-10 relative text-2xl">
             Let's Connect!
