@@ -9,7 +9,7 @@ const projectData = [
     description:
       "StackJobs is a MERN stack-powered job portal offering seamless job search, filtering, and application management for job seekers.",
     img: stackjobs,
-    liveLink: "#",
+    liveLink: "https://www.stacklearning.in/",
     githubLink: "#",
   },
   {
