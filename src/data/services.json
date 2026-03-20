@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Full Stack Development",
+    "description": "Build scalable web apps using MERN/NestJS with clean architecture and optimized performance.",
+    "icon": "Code"
+  },
+  {
+    "title": "Backend Engineering",
+    "description": "Designing high-performance APIs, database schemas, and multi-tenant systems using Node.js and NestJS.",
+    "icon": "Server"
+  },
+  {
+    "title": "Frontend Development",
+    "description": "Crafting premium user interfaces with React, Tailwind CSS, and Framer Motion for smooth user experiences.",
+    "icon": "Layers"
+  },
+  {
+    "title": "Database Optimization",
+    "description": "Optimizing MongoDB queries and indexing strategies to improve API response times by up to 35%.",
+    "icon": "Database"
+  },
+  {
+    "title": "Automation & CI/CD",
+    "description": "Building automation workflows that reduce manual effort by up to 70% using tools like Cypress.",
+    "icon": "Zap"
+  },
+  {
+    "title": "Scalable Systems",
+    "description": "Experience in migrating hundreds of APIs and building systems for 10K+ users with high availability.",
+    "icon": "Cpu"
+  }
+]

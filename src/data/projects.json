@@ -1,0 +1,42 @@
+[
+  {
+    "title": "WebToNative Platform",
+    "description": "Redesigned and migrated a user-based platform to a multi-tenant architecture for 10K+ clients. Improved conversion rates by 30% and onboarding efficiency by 25%.",
+    "tech": ["React", "NestJS", "MongoDB", "TypeScript"],
+    "link": "#",
+    "github": "#",
+    "image": "/projects/webtonative.png"
+  },
+  {
+    "title": "API Migration System",
+    "description": "Successfully migrated 300+ Express.js APIs with Firestore to a scalable NestJS architecture with MongoDB, improving code maintainability and backend performance.",
+    "tech": ["NestJS", "Express.js", "MongoDB", "Node.js"],
+    "link": "#",
+    "github": "#",
+    "image": "/projects/migration.png"
+  },
+  {
+    "title": "RBAC Admin Dashboard",
+    "description": "Implemented a role-based access control (RBAC) system for granular permission management, boosting platform security and operational efficiency.",
+    "tech": ["React", "Node.js", "Tailwind CSS", "shadcn/ui"],
+    "link": "#",
+    "github": "#",
+    "image": "/projects/rbac.png"
+  },
+  {
+    "title": "Cypress Automation Workflow",
+    "description": "Built an automation workflow to extract App Store rejection reasons and auto-prefill admin dashboards, reducing publishing effort by 70%.",
+    "tech": ["Cypress", "JavaScript", "Node.js"],
+    "link": "#",
+    "github": "#",
+    "image": "/projects/automation.png"
+  },
+  {
+    "title": "Credit & Referral Rewards",
+    "description": "Developed a platform credit and referral rewards system, driving a 10% increase in new user sign-ups through improved user engagement.",
+    "tech": ["React", "NestJS", "MongoDB"],
+    "link": "#",
+    "github": "#",
+    "image": "/projects/rewards.png"
+  }
+]
